@@ -1,0 +1,7 @@
+#+TITLE: Styles
+
+This folder contains a cohesive set of
+styles that I use across my websites.
+
+It may become a CSS framework in the future,
+but for now it's a small set of text formatting rules.
