@@ -1,0 +1,39 @@
+ html {
+     font-size: 20px;
+     font-family: "Arial", "Helvetica", sans-serif;
+ }
+
+ a:link {
+     color: #484848;
+ }
+
+ a:visited {
+     color: #585858;
+ }
+
+ a:hover {
+     color: gray;
+ }
+
+ a:active {
+     color: blue;
+ }
+
+ ::selection {
+     background-color: #99ccff;
+ }
+
+ footer {
+     display: inline-block;
+     vertical-align: middle;
+     font-size: 16px;
+ }
+
+ img {
+     vertical-align: middle;
+ }
+
+ #br {
+     display: block;
+     margin: 0 0;
+ }
