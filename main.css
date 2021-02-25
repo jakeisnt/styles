@@ -19,6 +19,14 @@ a:active {
     color: blue;
 }
 
+a:active {
+    color: blue;
+}
+
+a[href^="./"] {
+    color: #505050;
+}
+
 ::selection {
     background-color: #99ccff;
 }
