@@ -5,3 +5,9 @@ styles that I use across my websites.
 
 It may become a CSS framework in the future,
 but for now it's a small set of text formatting rules.
+
+To add this to your side, add 
+``` css
+ @import url("https://jakeisnt.github.io/styles/main.css");
+```
+to the top of your CSS file.
