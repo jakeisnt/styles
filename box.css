@@ -1,0 +1,41 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.box {
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    border: 2px solid black;
+    color: theme.black;
+    background-color: theme.white;
+}
+
+
+.error-box {
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    border: 2px solid red;
+    color: theme.black;
+    background-color: theme.white;
+}
+
+.title {
+    font-size: 4em;
+    text-align: center;
+}
+
+.fake-pic {
+    border: 2px solid black;
+    width: 25vw;
+    height: 25vh;
+    text-align: center;
+    margin: auto;
+    marginBottom: 2em;
+}
