@@ -10,24 +10,22 @@
     margin-top: 2em;
 }
 
-/* surround divs in a nice box */
-.box {
+.box, .error-box {
     padding: 1em;
     margin: 1em;
     text-align: center;
-    border: 2px solid black;
     color: theme.black;
     background-color: theme.white;
 }
 
-/* the same box but with an error message */
+/* surround divs in a nice box */
+.box {
+    border: 2px solid black;
+}
+
+/* the same box but for an error message */
 .error-box {
-    padding: 1em;
-    margin: 1em;
-    text-align: center;
     border: 2px solid red;
-    color: theme.black;
-    background-color: theme.white;
 }
 
 /* better title than the default h1, tag your <h1/> with this */
